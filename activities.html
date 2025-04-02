@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Activities</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/activities.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="pc">
+      <div id="screen">
+        <!-- City Name Section -->
+        <div class="city-name" id="city">
+          <i class="fa-solid fa-location-dot"></i>
+          <h2>City Name</h2>
+        </div>
+
+        <!-- Current Weather Summary -->
+        <div class="weather-summary">
+          <div class="current-temp" id="current-temp">24°C</div>
+          <div class="weather-condition" id="weather-condition">Sunny</div>
+        </div>
+
+        <!-- Activities Grid -->
+        <div class="activities-grid">
+          <!-- Dynamic activities will be inserted here -->
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            </li>
+            <li><a class="active" href="search.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="world.html"><i class="fa-solid fa-earth-americas"></i></a></li>
+            <li>
+              <a href="activities.html" class="active"
+                ><i class="fa-solid fa-person-running"></i
+              ></a>
+            </li>
+            
+       
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <script src="js/activities.js"></script>
+  </body>
+</html>
